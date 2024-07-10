@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "greetings"],
+      "responses": ["Hello!", "Hi there!", "Hey!"]
+    },
+    {
+      "tag": "casual",
+      "patterns":["how are you","how do you feel","are you ok"],
+      "responses": ["I am fine, glad you asked","I am super cool, thank you for asking"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye"],
+      "responses": ["Goodbye!", "See you later!", "Bye!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name?", "who are you?"],
+      "responses": ["I am 'Chatty' the chatbot created by Parvathy."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanku"],
+      "responses": ["You're welcome!", "No problem!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather in (.*)", "weather in (.*)"],
+      "responses": []
+    },
+    {
+      "tag": "user_name",
+      "patterns": ["my name is (.*)","i am (.*)","everyone calls me (.*)"],
+      "responses": ["Hello %1, how can I help you today?",
+                    "Nice to meet you, %1!",
+                    "Hi %1, what can I do for you?"]
+    }
+  ]
+}
