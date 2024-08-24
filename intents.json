@@ -27,7 +27,7 @@
     },
     {
       "tag": "weather",
-      "patterns": ["what's the weather in (.*)", "weather in (.*)"],
+      "patterns": ["what is the weather in (.*)", "weather in (.*)"],
       "responses": []
     },
     {
